@@ -1,0 +1,16 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+
+
+allprojects {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+    }
+}

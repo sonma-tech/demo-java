@@ -1,0 +1,16 @@
+group 'net.sonma.demo'
+version '1.0.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    compile 'commons-io:commons-io:2.6'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'ch.qos.logback:logback-core:1.2.3'
+    compile 'ch.qos.logback:logback-classic:1.2.33'
+}
