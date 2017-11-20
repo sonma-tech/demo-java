@@ -8,8 +8,8 @@ package net.sonma.demo;
  */
 public interface API {
     String HOST = "https://api.sonma.net";
-    String PRINT = HOST + "/v1/print";
-    String ACCESS_TOKEN = HOST + "/v1/auth/access_token";
+    String PRINT =   "/v1/print";
+    String ACCESS_TOKEN =  "/v1/auth/access_token";
 
 
 
